@@ -1,0 +1,160 @@
+:root {
+    --main-color: #101c66ff;
+    --background-color: white;
+    --box-shadow: 14px 14px 10px var(--main-color);
+    --border-radius: 10px;
+}
+
+body.theme-default {
+    background-image: url('blueback.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.theme-yellow {
+    background-image:url("yellowback.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.theme-green {
+    background-image:url("greenback.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.theme-pink {
+    background-image:url("pinkback.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.theme-purple {
+    background-image:url("purpleback.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.theme-grey {
+    background-image:url("greyback.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.theme-orange {
+    background-image:url("orangeback.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.theme-red {
+    background-image:url("redback.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    font-family: 'Aoboshi One';;
+}
+
+.name-input-container, .theme-selector {
+    margin-bottom: 20px;
+}
+
+#name-input, 
+#set-name-button, 
+#saveButton, 
+.edit-button, 
+.delete-button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    border: 2px solid var(--main-color);
+    margin: 5px;
+}
+
+#name-input {
+    flex: 1;
+}
+
+#set-name-button, 
+#saveButton {
+    background-color: var(--main-color);
+    color: white;
+}
+
+#emoji-picker {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 2px solid var(--main-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--background-color);
+}
+
+.emoji {
+    font-size: 24px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#journalEntry {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    font-family: 'Annie Use Your Telescope';
+    font-weight:bold;
+}
+
+#entriesContainer {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 2px solid var(--main-color);
+    padding: 10px;
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.entry {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.entry-date {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.entry-actions {
+    margin-top: 10px;
+}
+
+.edit-button,
+.delete-button {
+    background-color: var(--main-color);
+    color: white;
+}
+
+footer{
+    background-color:#101c66ff;
+    color:white;
+    padding:5px;
+    margin:10px;
+    text-align: center
+}

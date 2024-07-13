@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Journal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Aoboshi One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        
+        <h1 id="journal-heading">Kids Summer Journal</h1>
+        <div class="name-input-container">
+            <label for="name-input">Name:</label>
+            <input type="text" id="name-input" placeholder="Enter your name">
+            <button id="set-name-button">Set Name</button>
+        </div>
+        <p id="name-display" style="display: none;"></p>
+        <div class="theme-selector">
+            <label for="theme-select">Choose Theme:</label>
+            <select id="theme-select">
+                <option value="theme-default">Default</option>
+                <option value="theme-yellow">yellow</option>
+                <option value="theme-green">Green</option>
+                <option value="theme-pink">Pink</option>
+                <option value="theme-purple">Purple</option>
+                <option value="theme-grey">Grey</option>
+                <option value="theme-orange">Orange</option>
+                <option value="theme-red">Red</option>
+            </select>
+        </div>
+        <textarea id="journalEntry" placeholder="Write your entry here..."></textarea>
+        <div id="emoji-picker" class="emoji-picker"></div>
+        <button id="saveButton">Save Entry</button>
+        <div id="entriesContainer"></div>
+    </div>
+    <footer>
+        <h4>Contact: webdevsrosec@gmail.com</h4>
+    <h4>2024 &copy; S-Rose-C </h4>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
